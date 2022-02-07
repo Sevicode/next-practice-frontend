@@ -12,6 +12,7 @@ export default function EventItem({ evt }) {
               ? evt.image
               : '/images/default.jpg'
           }
+          alt={evt.title}
           width={170}
           height={100}
         />
